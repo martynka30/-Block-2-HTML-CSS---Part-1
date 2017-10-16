@@ -1,0 +1,66 @@
+
+Martynka@stacjonarny MINGW64 ~
+$ cd /d
+
+Martynka@stacjonarny MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/                         Martyna.szlachta.avi
+'~temp.htm'                             modele/
+ AAAAAAAAAAAAPRACA/                     Multimedia/
+ aabaner/                               NOWE/
+ angielski/                             Pendrive/
+ Config.Msi/                            praca-dokument/
+ dom/                                   pulpit/
+'e- deklaracje - plik z danymi'/        rozne/
+ eBook/                                'Sequence 01.1452.36161.aac'
+'English for Kids - Animal house.mp3'  'Sequence 01.1452.36162.aac'
+ Filmy/                                 SUPERKID.pl/
+'gi group'/                            'System Volume Information'/
+ grafika/                               tata/
+ Instalki/                             'Wa¿ne Dokumenty'/
+ internet/                              zdjêcia/
+ kurs/
+
+Martynka@stacjonarny MINGW64 /d
+$ cd kurs
+
+Martynka@stacjonarny MINGW64 /d/kurs
+$ ls
+'blok 1'/
+
+Martynka@stacjonarny MINGW64 /d/kurs
+$ cd blok\ 1/
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1
+$ ls
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1
+$ git clone https://github.com/martynka30/-Block-2-HTML-CSS---Part-1.git
+Cloning into '-Block-2-HTML-CSS---Part-1'...
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1
+$ ls
+-Block-2-HTML-CSS---Part-1/
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1
+$ cd -Block-2-HTML-CSS---Part-1/
+bash: cd: -B: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1
+$ ls
+Block-2-HTML-CSS---Part-1/
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1
+$ cd Block-2-HTML-CSS---Part-1/
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ ls
+index.html  README.md
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$
