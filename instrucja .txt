@@ -63,4 +63,83 @@ $ ls
 index.html  README.md
 
 Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        instrucja .txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ git add -A
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        new file:   instrucja .txt
+
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ git commit -m "instrucja nowa strona"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Martynka@stacjonarny.(none)')
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
 $
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$   git config --global user.email "you@example.com"
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$   git config --global user.email "martyna.szlachta@poczta.fm"
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$   git config --global user.name "Your Name"
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$   git config --global user.name "Martynasz"
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ git commit -m "instrucja nowa strona"
+[master f97fcc3] instrucja nowa strona
+ 2 files changed, 138 insertions(+), 54 deletions(-)
+ rewrite index.html (90%)
+ create mode 100644 instrucja .txt
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.72 KiB | 1.72 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/martynka30/-Block-2-HTML-CSS---Part-1.git
+   3b40619..f97fcc3  master -> master
+
+Martynka@stacjonarny MINGW64 /d/kurs/blok 1/Block-2-HTML-CSS---Part-1 (master)
